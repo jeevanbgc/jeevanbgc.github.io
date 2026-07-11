@@ -1,0 +1,66 @@
+/* Hero section on homepage */
+.hero {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  margin: -0.5rem -0.5rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(63, 81, 181, 0.08) 0%,
+    rgba(63, 81, 181, 0.02) 100%
+  );
+}
+
+[data-md-color-scheme="slate"] .hero {
+  background: linear-gradient(
+    135deg,
+    rgba(121, 134, 203, 0.15) 0%,
+    rgba(63, 81, 181, 0.05) 100%
+  );
+}
+
+.hero h1 {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.hero .subtitle {
+  font-size: 1.15rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5rem;
+}
+
+.hero .location {
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color--lighter);
+  margin-bottom: 1.25rem;
+}
+
+.hero .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  justify-content: center;
+}
+
+.hero .links a {
+  font-weight: 500;
+}
+
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin: 0 auto 1.25rem;
+  display: block;
+  border: 3px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 2px 12px rgba(63, 81, 181, 0.08);
+}
+
+/* Publication year headings */
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.25rem;
+}
