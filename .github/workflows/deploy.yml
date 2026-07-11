@@ -29,8 +29,8 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _deploy
-          cp index.html publications.html research.html _deploy/
-          cp -r css images _deploy/
+          cp index.html publications.html research.html blog.html _deploy/
+          cp -r css images blog _deploy/
           touch _deploy/.nojekyll
 
       - name: Upload site

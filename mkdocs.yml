@@ -1,0 +1,70 @@
+site_name: Jeevan GC, PhD
+site_description: Personal site of Jeevan B. GC — Senior AI Scientist, Peptide Design
+site_author: Jeevan B. GC
+site_url: https://github.com/jeevanbgc/
+
+site_dir: site
+
+repo_name: jeevanbgc
+repo_url: https://github.com/jeevanbgc
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/molecule
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Research: research.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/google
+      link: https://scholar.google.com/citations?user=Vu5JRU0AAAAJ&hl=en&oi=ao
+      name: Google Scholar
+    - icon: fontawesome/brands/github
+      link: https://github.com/jeevanbgc
+      name: GitHub
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Jeevan_G_C
+      name: ResearchGate
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jeevan-gc-ph-d-73a26660/
+      name: LinkedIn
