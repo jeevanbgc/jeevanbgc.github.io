@@ -29,8 +29,9 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _deploy
-          cp index.html publications.html research.html .nojekyll _deploy/
-          cp -r css _deploy/
+          cp index.html publications.html research.html _deploy/
+          cp -r css images _deploy/
+          touch _deploy/.nojekyll
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
