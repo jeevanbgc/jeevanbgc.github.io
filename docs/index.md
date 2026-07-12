@@ -39,7 +39,7 @@ Florida International University, Miami, FL
 Tribhuvan University, Kathmandu, Nepal
 
 
-## Postdoctoral Trainings
+## Employment History
 
 - The Centre for Protein Degradation — Dana-Farber Cancer Institute, Boston MA
 - [Professor Joachim Frank Lab](https://joachimfranklab.org/the-team/) — Columbia University, New York, NY
