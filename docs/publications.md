@@ -21,7 +21,7 @@ Marissa J. Stutzman, C.S. John Kim, David J. Tester, Samantha K. Hamrick, Steven
 Jonathan Shintaku, Wolfgang M. Pernice, Wafaa Eyaid, **Jeevan B GC**,, Zuben P. Brown, Marti Juanola-Falgarona, Javier Torres-Torronteras, Ewen W. Sommerville, Debby M.E.I. Hellebrekers, Emma L. Blakely, Alan Donaldson, Ingrid M.B.H. van de Laar, Cheng-Shiun Leu, Ramon Marti, **Joachim Frank**, Kurenai Tanji, David A. Koolen, Richard J. Rodenburg, Patrick F. Chinnery, H.J.M. Smeets, Gráinne S. Gorman, Penelope E. Bonnen, Robert W. Taylor, and Michio Hirano, "RRM1 variants cause a mitochondrial DNA maintenance disorder via impaired de novo nucleotide synthesis"; J Clin Invest. https://doi.org/10.1172/JCI145660
 
 
-## Washington State Univeristy (Postdoc Research)
+## Washington State University
 
 ## 2021
 Christopher T. Szlenk, **Jeevan B. GC** and Senthil Natesan, "Membrane-facilitated receptor access and binding mechanisms of long-acting β2-adrenergic receptor (β2-AR) agonists", Molecular Pharmacology, August 1, 2021, MOLPHARM-AR-2021-000285; DOI: https://doi.org/10.1124/molpharm.121.000285

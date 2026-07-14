@@ -13,8 +13,9 @@ Computational and AI-driven approaches to peptide design, applying generative an
 At the Center for Protein Degradation, my work centered on:
 
 - **Computational chemistry & biophysics** applied to small molecules targeting therapeutically important proteins
-- **Single-particle cryo-EM data analysis** integrated with computational modeling
 - **Structure-based drug design** workflows connecting simulation to experimental structural biology
+- **Molecular Glues** Developed a novel computational workflow in designing molecular glues.
+https://github.com/jeevanbgc/molecularGlues
 
 ## PhD Research — Computational Biophysics (Florida International University)
 
