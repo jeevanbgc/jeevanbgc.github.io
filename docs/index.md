@@ -1,24 +1,44 @@
-<div class="hero" markdown="1">
+<div class="profile-layout" markdown="1">
 
-<img class="hero-photo" src="images/jeevangc.jpg" alt="Jeevan B. GC, PhD">
+<div class="profile-sidebar" markdown="1">
 
-# Jeevan B. GC, PhD
+<img class="profile-photo" src="images/jeevangc.jpg" alt="Jeevan B. GC, PhD">
 
-<div class="subtitle">Senior AI Scientist — Peptide Design, AbbVie</div>
-<div class="location"> USA </div>
+<h1 class="profile-name">Jeevan B GC</h1>
 
-<div class="links">
+<div class="profile-subtitle">Senior AI Scientist — Peptide Design</div>
 
-<a href="mailto:jeevanb.gc.23@gmail.com">Contact</a> ·
-<a href="https://scholar.google.com/citations?user=Vu5JRU0AAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a> ·
-<a href="https://github.com/jeevanbgc">GitHub</a> ·
-<a href="https://www.researchgate.net/profile/Jeevan_G_C">ResearchGate</a> ·
-<a href="https://www.linkedin.com/in/jeevan-gc-ph-d-73a26660/">LinkedIn</a> ·
-<a href="https://drive.google.com/drive/folders/1PesLK2PC3TAmO7VHAGfeJnp50besS-ic">Curriculum Vitae</a>
+<div class="profile-info">
 
+<div class="info-item">
+<span class="info-icon">🏢</span>
+<span class="info-text">AbbVie</span>
+</div>
+
+<div class="info-item">
+<span class="info-icon">📍</span>
+<span class="info-text">Illinois, USA</span>
+</div>
+
+<div class="info-item">
+<span class="info-icon">🎓</span>
+<span class="info-text">PhD, Computational Biophysics</span>
 </div>
 
 </div>
+
+<div class="profile-links">
+<a href="mailto:jeevanb.gc.23@gmail.com" class="profile-link">📧 Contact</a>
+<a href="https://scholar.google.com/citations?user=Vu5JRU0AAAAJ&amp;hl=en&amp;oi=ao" class="profile-link">🎓 Google Scholar</a>
+<a href="https://github.com/jeevanbgc" class="profile-link">💻 GitHub</a>
+<a href="https://www.researchgate.net/profile/Jeevan_G_C" class="profile-link">🔬 ResearchGate</a>
+<a href="https://www.linkedin.com/in/jeevan-gc-ph-d-73a26660/" class="profile-link">💼 LinkedIn</a>
+<a href="https://drive.google.com/drive/folders/1PesLK2PC3TAmO7VHAGfeJnp50besS-ic" class="profile-link">📄 Curriculum Vitae</a>
+</div>
+
+</div>
+
+<div class="profile-content" markdown="1">
 
 ## About
 
@@ -50,3 +70,7 @@ Tribhuvan University, Kathmandu, Nepal
 ---
 
 See [Publications](publications.md) and [Research](research.md) for more on my work.
+
+</div>
+
+</div>
