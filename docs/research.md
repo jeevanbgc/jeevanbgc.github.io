@@ -14,8 +14,7 @@ At the Center for Protein Degradation, my work centered on:
 
 - **Computational chemistry & biophysics** applied to small molecules targeting therapeutically important proteins
 - **Structure-based drug design** workflows connecting simulation to experimental structural biology
-- **Molecular Glues** Developed a novel computational workflow in designing molecular glues.
-https://github.com/jeevanbgc/molecularGlues
+- **Molecular Glues** Developed a novel computational workflow in designing molecular glues [Molecular Glues](https://github.com/jeevanbgc/molecularGlues)
 
 ## PhD Research — Computational Biophysics (Florida International University)
 

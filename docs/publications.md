@@ -40,29 +40,29 @@ Swechha M. Pokharel, Niraj K. Shill,**Jeevan B. GC**, Zachary T. Colburn, Su-Yu 
 ## Florida International University (PhD research)
 
 ## 2018
-Kathryn Del Vecchio, Cary T. Frick, Jeevan B. GC, Shun-ichiro Oda, Bernard S. Gerstman, Erica Ollmann Saphire, Prem P. Chapagain and Robert V. Stahelin, "A cationic, C-terminal patch and structural rearrangements in Ebola virus matrix VP40 protein control its interactions with phosphatidylserine", Journal of Biological Chemistry, 2018, 293(9) 3335–3349.
+Kathryn Del Vecchio, Cary T. Frick, **Jeevan B. GC**, Shun-ichiro Oda, Bernard S. Gerstman, Erica Ollmann Saphire, Prem P. Chapagain and Robert V. Stahelin, "A cationic, C-terminal patch and structural rearrangements in Ebola virus matrix VP40 protein control its interactions with phosphatidylserine", Journal of Biological Chemistry, 2018, 293(9) 3335–3349.
 
 ## 2017
-Jeevan B. GC, Rudra P. Pokhrel, Nisha Bhattarai, Bernard S. Gerstman, Kristen Johnson, Robert V. Stahelin, Prem P.Chapagain, "Graphene-VP40 interactions and potential disruption of the Ebola virus matrix filaments", Biochemical Biophysical Research Communications (BBRC), 2017, 493(1), 176-181.
+**Jeevan B. GC**, Rudra P. Pokhrel, Nisha Bhattarai, Bernard S. Gerstman, Kristen Johnson, Robert V. Stahelin, Prem P.Chapagain, "Graphene-VP40 interactions and potential disruption of the Ebola virus matrix filaments", Biochemical Biophysical Research Communications (BBRC), 2017, 493(1), 176-181.
 
-Jeevan B. GC, Bernard S. Gerstman, and Prem P. Chapagain, "Membrane Association and Localization Dynamics of the Ebola Virus Matrix Protein VP40", Biochimica et Biophysica Acta (BBA) – Biomembranes, 2017, 1859(10), 2012-2020.
+**Jeevan B. GC**, Bernard S. Gerstman, and Prem P. Chapagain, "Membrane Association and Localization Dynamics of the Ebola Virus Matrix Protein VP40", Biochimica et Biophysica Acta (BBA) – Biomembranes, 2017, 1859(10), 2012-2020.
 
-Nisha Bhattarai, Jeevan B. GC, Bernard S. Gerstman, Robert V. Stahelin, Prem P. Chapagain, "Plasma Membrane Association Facilitates Conformational Changes in Marburg Virus Protein VP40 Dimer", RSC advances, 2017, 7, 22741-22748.
+Nisha Bhattarai, **Jeevan B. GC**, Bernard S. Gerstman, Robert V. Stahelin, Prem P. Chapagain, "Plasma Membrane Association Facilitates Conformational Changes in Marburg Virus Protein VP40 Dimer", RSC advances, 2017, 7, 22741-22748.
 
 ## 2016
-Jeevan B. GC, Bernard S. Gerstman, Robert V. Stahelin and Prem P. Chapagain, "The Ebola virus protein VP40 hexamer enhances the clustering of PIP2 lipids in the Plasma membrane", Journal of Physical Chemistry Chemical Physics, 2016, 18, 28409-28417. (Cover Image Article)
+**Jeevan B. GC**, Bernard S. Gerstman, Robert V. Stahelin and Prem P. Chapagain, "The Ebola virus protein VP40 hexamer enhances the clustering of PIP2 lipids in the Plasma membrane", Journal of Physical Chemistry Chemical Physics, 2016, 18, 28409-28417. (Cover Image Article)
 
-Jeevan B. GC, Kristen A. Johnson, Monica L. Husby, Cary T. Frick, Bernard S. Gerstman, Robert V. Stahelin, and Prem P. Chapagain, "Interdomain salt-bridges in Ebola virus protein VP40 and their role on domain association and plasma membrane localization", Protein Science, 2016, 25(9), 1648–1658
+**Jeevan B. GC**, Kristen A. Johnson, Monica L. Husby, Cary T. Frick, Bernard S. Gerstman, Robert V. Stahelin, and Prem P. Chapagain, "Interdomain salt-bridges in Ebola virus protein VP40 and their role on domain association and plasma membrane localization", Protein Science, 2016, 25(9), 1648–1658
 
 ## 2015
-Jeevan B. GC, Bernard S. Gerstman, and Prem P. Chapagain, "The Role of the Interdomain interactions on RfaH dynamics and conformational transformation", Journal of Physical Chemistry B, 2015. 119 (40), pp 12750–12759.
+**Jeevan B. GC**, Bernard S. Gerstman, and Prem P. Chapagain, "The Role of the Interdomain interactions on RfaH dynamics and conformational transformation", Journal of Physical Chemistry B, 2015. 119 (40), pp 12750–12759.
 
 ## 2014
-Jeevan B. GC, Yuba R. Bhandari, Bernard S. Gerstman, and Prem P. Chapagain, "Molecular dynamics investigations of the α-helix to β-barrel conformational transformation in the RfaH transcription factor", Journal of Physical Chemistry B, 2014. 118 (19), pp 5101–5108.
+**Jeevan B. GC**, Yuba R. Bhandari, Bernard S. Gerstman, and Prem P. Chapagain, "Molecular dynamics investigations of the α-helix to β-barrel conformational transformation in the RfaH transcription factor", Journal of Physical Chemistry B, 2014. 118 (19), pp 5101–5108.
 
 ## Book Chapter
-Bernard S. Gerstman, Prem P. Chapagain, Jeevan B. GC and Timothy Steckman, "Molecular Dynamics Simulations of Conformational Conversions in Transformer Proteins", In: Kister A. (eds) Protein Supersecondary Structures. Methods in Molecular Biology, vol 1958. Humana Press, New York, NY
+Bernard S. Gerstman, Prem P. Chapagain, **Jeevan B. GC** and Timothy Steckman, "Molecular Dynamics Simulations of Conformational Conversions in Transformer Proteins", In: Kister A. (eds) Protein Supersecondary Structures. Methods in Molecular Biology, vol 1958. Humana Press, New York, NY
 
 ## PhD Thesis
-"Molecular Dynamics Investigations of Structural Conversions in Transformer Proteins", Jeevan B. GC,  ProQuest ETD Collection for FIU. AAI10744483.
+"Molecular Dynamics Investigations of Structural Conversions in Transformer Proteins", **Jeevan B. GC**,  ProQuest ETD Collection for FIU. AAI10744483.
 
