@@ -10,6 +10,7 @@ repo_url: https://github.com/jeevanbgc
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: indigo
@@ -27,7 +28,6 @@ theme:
     - navigation.tabs
     - navigation.top
     - content.code.copy
-    - toc.integrate
   font:
     text: Roboto
     code: Roboto Mono

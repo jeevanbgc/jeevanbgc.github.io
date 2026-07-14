@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Author Sidebar -->
+  <div class="author-sidebar">
+    <div class="author-avatar">
+      <img src="{{ base_url }}/images/jeevangc.jpg" alt="Jeevan B. GC">
+    </div>
+    <div class="author-name">Jeevan B. GC</div>
+    <div class="author-bio">Senior AI Scientist working on peptide design at AbbVie</div>
+    
+    <div class="author-details">
+      <div class="author-item">
+        <span class="author-icon">🌍</span>
+        <span class="author-text">Illinois, USA</span>
+      </div>
+      <div class="author-item">
+        <span class="author-icon">🏢</span>
+        <span class="author-text">AbbVie</span>
+      </div>
+    </div>
+    
+    <div class="author-links">
+      <a href="mailto:jeevanb.gc.23@gmail.com" class="author-link">
+        <span class="link-icon">✉️</span>
+        <span class="link-text">Email</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=Vu5JRU0AAAAJ&hl=en&oi=ao" class="author-link">
+        <span class="link-icon">🎓</span>
+        <span class="link-text">Google Scholar</span>
+      </a>
+      <a href="https://github.com/jeevanbgc" class="author-link">
+        <span class="link-icon">💻</span>
+        <span class="link-text">GitHub</span>
+      </a>
+      <a href="https://www.researchgate.net/profile/Jeevan_G_C" class="author-link">
+        <span class="link-icon">🔬</span>
+        <span class="link-text">ResearchGate</span>
+      </a>
+      <a href="https://www.linkedin.com/in/jeevan-gc-ph-d-73a26660/" class="author-link">
+        <span class="link-icon">💼</span>
+        <span class="link-text">LinkedIn</span>
+      </a>
+      <a href="https://drive.google.com/drive/folders/1PesLK2PC3TAmO7VHAGfeJnp50besS-ic" class="author-link">
+        <span class="link-icon">📄</span>
+        <span class="link-text">CV</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content-wrapper">
+    {{ super() }}
+  </div>
+{% endblock %}

@@ -1,67 +1,158 @@
-/* Header section with photo on left */
-.header-section {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin: 0 0 3rem 0;
-  padding: 2rem 0;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+/* Academic Pages Style - Left Sidebar Layout */
+
+/* Author Sidebar */
+.author-sidebar {
+  position: fixed;
+  left: 0;
+  top: 3.6rem; /* Below header */
+  bottom: 0;
+  width: 280px;
+  background: var(--md-default-bg-color);
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+  z-index: 10;
 }
 
-@media screen and (max-width: 768px) {
-  .header-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+[data-md-color-scheme="slate"] .author-sidebar {
+  background: var(--md-default-bg-color);
+  border-right-color: rgba(255, 255, 255, 0.1);
 }
 
-.profile-photo {
-  width: 200px;
-  height: 200px;
+/* Adjust main content to accommodate sidebar */
+.md-container {
+  margin-left: 280px !important;
+}
+
+.md-sidebar--primary {
+  display: none !important;
+}
+
+/* Author Avatar */
+.author-avatar {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.author-avatar img {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
-  flex-shrink: 0;
   border: 3px solid var(--md-default-fg-color--lightest);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-[data-md-color-scheme="slate"] .profile-photo {
+[data-md-color-scheme="slate"] .author-avatar img {
   border-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.header-content {
-  flex: 1;
-  min-width: 0;
+/* Author Info */
+.author-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  color: var(--md-default-fg-color);
 }
 
-.header-content h1 {
-  margin: 0 0 0.5rem 0 !important;
-  font-size: 2rem !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-.header-content p {
-  margin: 0 0 1rem 0;
+.author-bio {
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: var(--md-default-fg-color--light);
-  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
-.contact-links {
-  margin-top: 1rem;
-  font-size: 0.9rem;
+/* Author Details */
+.author-details {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
-.contact-links a {
-  text-decoration: none;
+.author-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.author-icon {
+  font-size: 1rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+}
+
+.author-text {
+  color: var(--md-default-fg-color--light);
+}
+
+/* Author Links */
+.author-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.author-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none !important;
+  font-size: 0.875rem;
+  color: var(--md-default-fg-color) !important;
+  transition: background-color 0.2s;
+}
+
+.author-link:hover {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .author-link:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.link-icon {
+  font-size: 1rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+}
+
+.link-text {
   font-weight: 500;
 }
 
-.contact-links a:hover {
-  text-decoration: underline;
+/* Mobile Responsive */
+@media screen and (max-width: 76.1875em) {
+  .author-sidebar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    padding: 1.5rem 1rem;
+  }
+  
+  .md-container {
+    margin-left: 0 !important;
+  }
+  
+  .author-avatar img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Remove header section styling */
+.header-section {
+  display: none;
 }
 
 /* Publication year headings */

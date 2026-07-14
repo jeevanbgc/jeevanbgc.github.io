@@ -1,26 +1,4 @@
-<div class="header-section" markdown="1">
-
-<img class="profile-photo" src="images/jeevangc.jpg" alt="Jeevan B. GC, PhD">
-
-<div class="header-content" markdown="1">
-
 # Jeevan B. GC, PhD
-
-**Senior AI Scientist — Peptide Design, AbbVie**  
-Illinois, USA
-
-<div class="contact-links">
-[📧 Email](mailto:jeevanb.gc.23@gmail.com) · 
-[🎓 Google Scholar](https://scholar.google.com/citations?user=Vu5JRU0AAAAJ&hl=en&oi=ao) · 
-[💻 GitHub](https://github.com/jeevanbgc) · 
-[🔬 ResearchGate](https://www.researchgate.net/profile/Jeevan_G_C) · 
-[💼 LinkedIn](https://www.linkedin.com/in/jeevan-gc-ph-d-73a26660/) · 
-[📄 CV](https://drive.google.com/drive/folders/1PesLK2PC3TAmO7VHAGfeJnp50besS-ic)
-</div>
-
-</div>
-
-</div>
 
 ## About
 
