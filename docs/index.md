@@ -4,7 +4,7 @@
 
 <img class="profile-photo" src="images/jeevangc.jpg" alt="Jeevan B. GC, PhD">
 
-<h1 class="profile-name">Jeevan B GC</h1>
+<h1 class="profile-name">Jeevan B GC, PhD</h1>
 
 <div class="profile-subtitle">Senior AI Scientist — Peptide Design</div>
 
