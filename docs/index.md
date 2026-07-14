@@ -1,5 +1,3 @@
-# Jeevan B. GC, PhD
-
 ## About
 
 I am a Senior AI Scientist working on peptide design at AbbVie. Before that, I was a Computational Chemistry Scientist I at the Center for Protein Degradation, Dana-Farber Cancer Institute, Boston, MA, where I used computational chemistry, biophysics, to investigate small molecules targeting therapeutically important proteins. At Columbia University in Prof. Joachim Frank Lab (Nobel Laureatte in Chemistry 2017), I solved high resolution map of ribosome and viral RNA complex using single-particle cryo-EM.
