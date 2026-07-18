@@ -1,4 +1,4 @@
-site_name: Dr. Jeevan B. GC Personal Site
+site_name: ""
 site_description: Personal site of Dr. Jeevan B. GC — Senior AI Scientist, Peptide Design
 site_author: Dr. Jeevan B. GC
 site_url: https://github.com/jeevanbgc/
@@ -26,6 +26,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - content.code.copy
   font:

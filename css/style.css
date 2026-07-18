@@ -26,6 +26,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -40,6 +41,12 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -573,33 +580,168 @@ footer a:hover {
   margin-bottom: 0.75rem;
 }
 
+/* Tablet */
 @media (max-width: 720px) {
-  .panel-grid {
-    grid-template-columns: 1fr;
+  body {
+    font-size: 1rem;
+    background-attachment: scroll;
   }
 
   .header-inner {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 0.65rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .site-title {
+    font-size: 1rem;
   }
 
   nav ul {
     flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  nav a {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  main {
+    padding: 1.25rem 1rem 3rem;
+  }
+
+  .panel-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .panel-card {
+    padding: 1.15rem 1.1rem;
+  }
+
+  .hero {
+    padding: 1.75rem 1.15rem 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
   }
 
   .hero h1 {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
+  }
+
+  .hero .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero .links {
+    gap: 0.4rem;
+  }
+
+  .hero .links a {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .content-section {
+    padding: 1.2rem 1.1rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .content-section h2 {
+    font-size: 1.05rem;
+  }
+
+  .edu-block {
+    padding: 0.9rem 1rem;
   }
 
   .page-header {
-    padding: 1.5rem 1.25rem;
+    padding: 1.35rem 1.15rem;
+    margin-bottom: 1.25rem;
   }
 
   .page-header h1 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+  }
+
+  .page-header p {
+    font-size: 0.95rem;
+  }
+
+  .pub-item {
+    padding: 1rem 1.05rem;
+  }
+
+  .pub-title {
+    font-size: 0.95rem;
+  }
+
+  .blog-card {
+    padding: 1.15rem 1.1rem;
+  }
+
+  .blog-card h2 {
+    font-size: 1.05rem;
   }
 
   .post-article {
-    padding: 1.5rem 1.25rem;
+    padding: 1.35rem 1.15rem;
+  }
+
+  .post-article h1 {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  .social-links {
+    gap: 0.6rem 1rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 1.35rem;
+  }
+
+  .hero-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero .links a {
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav a {
+    padding: 0.45rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .post-article h1 {
+    font-size: 1.25rem;
   }
 }

@@ -6,10 +6,10 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 280px;
+  width: 240px;
   background: var(--md-default-bg-color);
   border-right: 1px solid var(--md-default-fg-color--lightest);
-  padding: 4.8rem 1.5rem 2rem;
+  padding: 3.5rem 1rem 1rem;
   overflow-y: auto;
   z-index: 5;
 }
@@ -19,14 +19,29 @@
   border-right-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Adjust header - blue only over sidebar */
+/* Adjust header — nav tabs + search/switch on one row */
 .md-header {
   padding-left: 0;
+  height: 2.8rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .md-header__inner {
-  padding-left: 280px;
-  background: transparent;
+  position: relative;
+  padding-left: 240px;
+  background: var(--md-primary-fg-color);
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.25rem;
+  z-index: 2;
+}
+
+.md-header__title {
+  display: none;
 }
 
 .md-header::before {
@@ -35,39 +50,109 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 280px;
+  width: 240px;
   background: var(--md-primary-fg-color);
   z-index: -1;
 }
 
+/*
+  Material renders tabs as a sibling BELOW the header.
+  Pull them up so Home / Publications / Research sit on the
+  same row as the theme switch and search.
+*/
+.md-tabs {
+  position: sticky;
+  top: 0;
+  margin-top: -2.8rem;
+  height: 2.8rem;
+  background: transparent !important;
+  box-shadow: none !important;
+  z-index: 11;
+  pointer-events: none;
+}
+
+.md-tabs__list {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  height: 2.8rem;
+  margin: 0;
+  padding: 0 0.5rem 0 calc(240px + 0.5rem);
+  gap: 0.15rem;
+  max-width: calc(100% - 8rem);
+}
+
+.md-tabs__item {
+  height: 2.8rem;
+  padding: 0;
+}
+
+.md-tabs__link {
+  margin: 0 !important;
+  padding: 0 0.85rem !important;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover,
+.md-tabs__link:focus {
+  opacity: 1;
+}
+
+/* Keep search + theme switch on the right of the same row */
+.md-header__option,
+.md-header__button,
+.md-search {
+  margin-left: 0;
+  flex-shrink: 0;
+}
+
+/* Adjust content for header */
+.md-main {
+  padding-top: 0;
+}
+
+/* Cover Image */
+.cover-image {
+  margin: -1.5rem -1.5rem 2rem;
+  overflow: hidden;
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 300px;
+  object-fit: contain;
+  object-position: center;
+}
+
 /* Adjust main content to accommodate sidebar */
 .md-container {
-  margin-left: 280px !important;
+  margin-left: 240px !important;
 }
 
 .md-sidebar--primary {
   display: none !important;
 }
 
-.md-tabs {
-  margin-left: 280px;
-  padding-left: 0;
-}
-
 /* Author Avatar */
 .author-avatar {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .author-avatar img {
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
-  border: 3px solid var(--md-default-fg-color--lightest);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 [data-md-color-scheme="slate"] .author-avatar img {
@@ -76,44 +161,44 @@
 
 /* Author Info */
 .author-name {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   color: var(--md-default-fg-color);
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
 .author-bio {
-  font-size: 0.9rem;
-  line-height: 1.4;
+  font-size: 0.825rem;
+  line-height: 1.3;
   color: var(--md-default-fg-color--light);
   text-align: center;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
 /* Author Details */
 .author-details {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .author-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-  line-height: 1.3;
+  gap: 0.4rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.825rem;
+  line-height: 1.2;
 }
 
 .author-icon {
-  font-size: 1.1rem;
-  width: 1.8rem;
+  font-size: 1rem;
+  width: 1.5rem;
   flex-shrink: 0;
 }
 
@@ -125,20 +210,20 @@
 .author-links {
   display: flex;
   flex-direction: column;
-  gap: 0.125rem;
+  gap: 0.1rem;
 }
 
 .author-link {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
-  padding: 0.4rem 0.625rem;
-  border-radius: 0.25rem;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.2rem;
   text-decoration: none !important;
-  font-size: 0.9rem;
+  font-size: 0.825rem;
   color: var(--md-default-fg-color) !important;
   transition: background-color 0.2s;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .author-link:hover {
@@ -150,8 +235,8 @@
 }
 
 .link-icon {
-  font-size: 1.1rem;
-  width: 1.8rem;
+  font-size: 1rem;
+  width: 1.5rem;
   flex-shrink: 0;
 }
 
@@ -168,7 +253,7 @@
     top: 0;
     border-right: none;
     border-bottom: 1px solid var(--md-default-fg-color--lightest);
-    padding: 1.5rem 1rem;
+    padding: 1rem;
   }
   
   .md-container {
@@ -176,8 +261,31 @@
   }
   
   .author-avatar img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .md-header__inner {
+    padding-left: 0.5rem;
+    justify-content: flex-end;
+  }
+
+  .md-header::before {
+    display: none;
+  }
+  
+  .md-tabs {
+    margin-top: -2.8rem;
+  }
+
+  .md-tabs__list {
+    padding-left: 0.5rem;
+    max-width: calc(100% - 7rem);
+  }
+
+  .md-tabs__link {
+    padding: 0 0.55rem !important;
+    font-size: 0.75rem;
   }
 }
 
