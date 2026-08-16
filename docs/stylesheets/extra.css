@@ -115,19 +115,42 @@
   padding-top: 0;
 }
 
-/* Cover Image */
+/* Cover Image — fully responsive */
 .cover-image {
   margin: -1.5rem -1.5rem 2rem;
   overflow: hidden;
+  width: calc(100% + 3rem);
+  max-width: none;
 }
 
-.cover-image img {
-  width: 100%;
-  height: auto;
+.cover-image img,
+.md-typeset .cover-image img,
+.md-typeset .cover-image p img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
   display: block;
-  max-height: 300px;
   object-fit: contain;
   object-position: center;
+  margin: 0 auto;
+}
+
+.cover-image p {
+  margin: 0;
+}
+
+/* Cover image has a baked-in white background — adapt for dark mode */
+[data-md-color-scheme="slate"] .cover-image {
+  background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .cover-image img,
+[data-md-color-scheme="slate"] .md-typeset .cover-image img,
+[data-md-color-scheme="slate"] .md-typeset .cover-image p img {
+  /* Invert white↔dark while roughly preserving molecule colors */
+  filter: invert(1) hue-rotate(180deg);
+  background: transparent;
 }
 
 /* Adjust main content to accommodate sidebar */
@@ -263,6 +286,21 @@
   .author-avatar img {
     width: 100px;
     height: 100px;
+    max-width: 40vw;
+    max-height: 40vw;
+  }
+
+  .cover-image {
+    margin: -0.8rem -0.8rem 1.25rem;
+    width: calc(100% + 1.6rem);
+  }
+
+  .cover-image img,
+  .md-typeset .cover-image img,
+  .md-typeset .cover-image p img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
   }
   
   .md-header__inner {
@@ -286,6 +324,19 @@
   .md-tabs__link {
     padding: 0 0.55rem !important;
     font-size: 0.75rem;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 30em) {
+  .cover-image {
+    margin: -0.6rem -0.6rem 1rem;
+    width: calc(100% + 1.2rem);
+  }
+
+  .author-avatar img {
+    width: 88px;
+    height: 88px;
   }
 }
 
