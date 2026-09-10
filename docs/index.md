@@ -1,4 +1,8 @@
+<div class="cover-image" markdown="1">
+
 ![Cover Image](images/coverimage.png)
+
+</div>
 
 ## About
 
