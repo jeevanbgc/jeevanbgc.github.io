@@ -1,12 +1,10 @@
-<div class="cover-image" markdown="1">
 ![Cover Image](images/coverimage.png)
-</div>
 
 ## About
 
-I completed my MSc in Theoretical Physics in Nepal, then moved to the United States to pursue my PhD research in computational biophysics at Florida International Univeristy. There, I utilized physics-based MD simulations to study protein folding and protein-membrane interactions. At Washington State University, I developed computational pipelines for membrane partitioning of small molecules, which provided important insight into membrane protein structure, dynamics and function. Building on this foundation in Computaional Biophysics, I moved to Columbia University to join the lab of Prof. Joachim Frank (2017 Nobel Laureate in Chemistry), where I gained hands-on experience solving high-resolution cryo-EM map of ribosome and viral RNA complexes. This structural perspective then led me to the Center for Protein Degradation at Dana-Farber Cancer Institute in Boston, MA, where I worked as a Computational Chemistry Scientist I, applying computational chemistry and biophysics approaches to study small molecules (molecular glues) targeting important therapeutic proteins. Today, I bring this combined background in structural biology, biophysics, and computational chemistry to my current role as a Senior AI Scientist at AbbVie, where I focus on AI-driven peptide design.
+I completed my MSc in theoretical physics in Nepal, then moved to the United States to pursue my PhD research in computational biophysics at Florida International University. There, I utilized physics-based molecular dynamics (MD) simulations to uncover folding of "Transformer" proteins such as RfaH transcription factor and protein-membrane interactions. At Washington State University, I developed computational pipelines (both physics-based and generative AI) for membrane partitioning of small molecules, which provided important insight into membrane protein structure, dynamics and function. Building on this foundation in computational biophysics, I moved to ***Columbia University to join the lab of Prof. Joachim Frank (2017 Nobel Laureate in Chemistry)***, where I gained hands-on experience solving high-resolution cryo-EM map of ribosome and viral RNA complexes. This structural perspective then led me to the Center for Protein Degradation at Dana-Farber Cancer Institute in Boston, MA, where I  developed novel computational chemistry and biophysics approaches to study small molecules (molecular glues) targeting therapeutically important proteins. Today, I bring this combined background in structural biology, computationl biophysics, and  chemistry to my current role as a Senior AI Scientist at AbbVie, where I focus on AI-driven peptide design.
 
-My research integrates physics-based molecular dynamics simulations, machine learning, statistical physics, and quantum mechanics to understand the motion and behavior of biomolecules — including proteins, membranes, and small molecules.
+My research integrates physics-based MD simulations, machine learning, statistical physics, and quantum mechanics to understand the motion and behavior of biomolecules including proteins, membranes, and small molecules.
 
 ## Education
 
@@ -30,4 +28,4 @@ Tribhuvan University, Kathmandu, Nepal
 
 ---
 
-See [Publications](publications.md) and [Research](research.md) for more on my work.
+See [Publications](publications.md), [Research](research.md), and [Projects](project.md) for more on my work.

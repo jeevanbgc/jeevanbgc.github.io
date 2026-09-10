@@ -13,7 +13,7 @@ Peter Obi, **Jeevan B GC**, Charles Mariasoosai, Ayobami Diyaolu, Senthil Natesa
 
 **Jeevan B GC**,  Christopher T. Szlenk,  Ayobami Diyaolu,  Peter Obi, Haiyang Wei,  Xutong Shi,  K. Michael Gibson,  Senthil Natesan,  and Jean-Baptiste Roullet. Allosteric modulation of a1b3g2 GABAA receptors by farnesol through the neurosteroid sites. Biophysical Journal 122, 1–19, March 7, 2023 https://doi.org/10.1016/j.bpj.2023.01.032
 
-## Columbia University Research
+## Columbia University
 
 ## 2022
 Marissa J. Stutzman, C.S. John Kim, David J. Tester, Samantha K. Hamrick, Steven M. Dotzler, John R. Giudicessi,  Marco C. Miotto, **Jeevan B GC**,, **Joachim Frank**, Andrew R. Marks, and Michael J. Ackerman, Characterization of N-terminal RYR2 variants outside CPVT1 hotspot regions using patient iPSCs reveal pathogenesis and therapeutic potential; Stem Cell Reports. https://doi.org/10.1016/j.stemcr.2022.07.002
@@ -37,7 +37,7 @@ Christopher Szlenk, **Jeevan B. GC**, and Senthil Natesan, "Does the Lipid Bilay
 Swechha M. Pokharel, Niraj K. Shill,**Jeevan B. GC**, Zachary T. Colburn, Su-Yu Tsai, Jesus A. Segovia, Te-Hung Chang, Smarajit Bandyopadhyay, Senthil Natesan, Jonathan C. R. Jones & and Santanu Bose, '"Integrin activation by the lipid molecule 25-hydroxycholesterol induces a proinflammatory response",  Nature Communications, 10, 1482, 2019.
 
 
-## Florida International University (PhD research)
+## Florida International University
 
 ## 2018
 Kathryn Del Vecchio, Cary T. Frick, **Jeevan B. GC**, Shun-ichiro Oda, Bernard S. Gerstman, Erica Ollmann Saphire, Prem P. Chapagain and Robert V. Stahelin, "A cationic, C-terminal patch and structural rearrangements in Ebola virus matrix VP40 protein control its interactions with phosphatidylserine", Journal of Biological Chemistry, 2018, 293(9) 3335–3349.
